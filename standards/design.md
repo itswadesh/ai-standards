@@ -31,6 +31,18 @@
   for large text and UI borders. Check every state, including hover, disabled
   and the hidden state before a reveal. List the pairs that fail in the design doc.
 - Blue backgrounds have been rejected before. Don't propose them without a reason.
+- Green means on. Give a status the success colour only when the thing is
+  switched on and working, and add a tick so the meaning doesn't rest on colour
+  alone. Something present by default (built in, included) reads neutral. When
+  everything is green, green says nothing.
+
+## Corners
+
+- Use one corner radius for every element: buttons, fields, cards, tables,
+  modals, menus, alerts and tags. Define it once as a token and point every
+  other radius at it, including a UI kit's own tokens and utility classes. Only
+  round things (circle buttons, status dots, counters, switches) differ. A screen
+  mixing 5, 8, 13 and 15 px corners and pill-shaped search bars was rejected.
 
 ## Type
 
