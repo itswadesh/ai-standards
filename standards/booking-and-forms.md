@@ -77,6 +77,10 @@ Fake bookings steal capacity. Add:
   - Call, WhatsApp (pre-filled with the booking link) and Navigate buttons;
   - "Confirmed on call", status steps, a full-screen UPI QR with the amount,
     "Payment received", and cancel with a reason.
+- **Sign-in screens on a phone:** the form sits at the top with a gutter on both
+  sides, because a vertically centred form jumps when the keyboard opens.
+  Forgot password and sign-up are their own addresses, so the back button
+  returns to sign-in.
 - Staff log in with a password (argon2id) and get rate-limited sessions
   (`security.md`). Staff pages load no analytics and are `noindex`.
 - Keep the public site's contact bar or floating buttons off admin pages; they

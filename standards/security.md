@@ -24,6 +24,15 @@
   - an `httpOnly` cookie, `Secure` in production, `SameSite=Lax`;
   - sliding expiry;
   - deactivating a user deletes their sessions.
+- **Getting back in:** "Forgot password?" sits on the sign-in screen and emails
+  a link that opens a page to choose a new password. The link works once, for
+  an hour; using it ends every session and signs the person in. Its host comes
+  from configuration, never from the request: a forged `Host` header would mail
+  a real person a link to a site the attacker chose. The request answers the
+  same whether or not the address has an account.
+- **Sign-up:** an app that hosts accounts for other people offers it from the
+  sign-in screen. An app run for one business keeps it off and adds staff by
+  invitation. Limit sign-ups per IP.
 - **Customer access** uses booking links and device cookies, never a phone
   number (`booking-and-forms.md`).
 - **Rate limits:** reserve the slot atomically, so parallel requests can't slip
