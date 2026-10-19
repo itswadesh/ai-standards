@@ -85,6 +85,12 @@
   Commons CC, credited on a credits page). No stock, no AI-generated images, and
   no photos taken from Google Maps or from creators, unless the owner allows it
   for a specific case.
+- Sample or demo content inside a product, such as a sample shop a merchant
+  starts with, may use free-licence photos (for example under the Unsplash
+  License), credited in the docs, and sample reviews. It must be marked as a
+  sample, erasable in one action, and named on screen with a prompt to erase it
+  before going live. Offer the choice first: free-licence photos, drawn
+  illustrations, or Gemini images.
 - When the owner allows AI-generated images, make them with Google Gemini's
   image model, never ChatGPT. They may look like photographs of places,
   vehicles, food or things, but never show a person, and are never evidence
