@@ -34,8 +34,15 @@
   "Last checked" line where it matters.
 - Take distances and drive times from Google Maps driving directions (the
   default, fastest route). Record the from/to place names and the date checked.
-- If source data is ambiguous (handwriting, conflicting pages), hold that entry
-  back and note why, rather than guessing.
+- When sources disagree on a figure, publish one figure, said plainly: the
+  authoritative source if there is one (Google Maps for distances), otherwise
+  the highest. Never print two values, a range of estimates, a list of what
+  different sites say, or "figures vary". If nothing is reliable at all
+  (handwriting, one doubtful page), hold that entry back and note why.
+- Never give the reader homework: no "check locally", "confirm before you go"
+  or "check with the railway". Link the site's own page that answers it, or
+  leave the fact out and ask the owner. Don't announce gaps ("not confirmed",
+  "unknown", "we could not find").
 - Before publishing facts about places, history or public services, check them
   against an authoritative source.
 
