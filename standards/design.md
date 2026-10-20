@@ -76,6 +76,12 @@
 - Touch targets are at least 44 px; primary actions are 48 px or more.
 - Prefer native elements: `<details>` for FAQs, `<dialog>` for sheets and
   lightboxes, real tables for timetables and prices.
+- Except selects, in an app or admin screen with its own theme and dark mode:
+  use one styled select everywhere (shadcn's select, or the project's own
+  equivalent), never a native `<select>`. The browser draws a native select's
+  list, so it does not follow the page's colours or dark mode, and its box sits
+  differently from the fields beside it. Keep the keyboard behaviour (arrows,
+  Enter, Escape, type-ahead), and add a test that fails if a native one returns.
 - Header: solid white, or a floating glass pill if the owner chose that look.
   Keep the navigation small.
 
