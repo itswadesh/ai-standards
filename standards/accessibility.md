@@ -11,6 +11,17 @@ page, plus a keyboard walk of every flow.
   Measure contrast over the real photo pixels, not over the fallback colour.
   Text set with an alpha colour or inside a faded parent is measured after
   compositing: black at 50% on white is about 3.5:1 and fails.
+- **Dark mode:** check every state mark in both themes, measured against what
+  it sits on: the chosen tab's underline, a pressed toggle, a selected card's
+  edge, a focus ring, a filled chip on a card. A brand or "primary" colour that
+  is dark in the dark theme makes all of them vanish at about 1:1. Give the
+  marks one token that flips (the brand colour in light, the text colour in
+  dark), and fills that say "on" a matching text colour. A chip or tile filled
+  with the card's own colour vanishes the same way.
+- **CSS variables:** a `var(--x)` naming a variable nothing declares fails
+  silently: the rule falls back to inheriting, and a `color-mix()` naming it
+  is dropped whole. Keep a test that fails on any variable read but never
+  declared (not counting declarations inside print rules or comments).
 - **Focus:** a visible global `:focus-visible` ring. Don't remove outlines
   without a replacement.
 - **Semantics:**
