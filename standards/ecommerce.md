@@ -55,6 +55,17 @@ The general SEO, analytics and performance rules still apply (`seo.md`,
   estimate, schema SKU, the cart line and the analytics payload.
 - A record the API reports as missing (product, vendor, category) returns 404
   from the page's loader, never a 500.
+- **Rendered metal looks like a photo of metal.** Polished metal shows what it
+  reflects, so light a 3D piece like a jewellery studio: a dark room with a
+  few large softboxes and strip lights, a tone mapping that keeps gold's hue,
+  and edges rounded slightly on screen where the highlights sit. A generic
+  environment map makes it look like painted plastic. Judge it beside a real
+  product photo.
+- **A piece shown on a model is drawn at its true size**, scaled from a body
+  measurement visible in the photo against a published average (shoulder
+  breadth, for example), not a guess. Record the measurement and its source
+  with the photo, and keep the model's face out of the frame unless the
+  owner wants it.
 
 ## Policy values
 
