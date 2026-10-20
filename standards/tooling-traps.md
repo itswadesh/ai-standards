@@ -30,6 +30,13 @@ automation. Check this file before you script anything non-trivial.
 
 - The extension's tab can be hidden or throttled (see `testing.md`). Prefer
   headless Chrome or Playwright for anything timing-related.
+- Headless Chromium draws WebGL in software, and one frame can hold the page's
+  thread for hundreds of milliseconds. Timing background work by its round trip
+  from the page then measures the renderer. Time the work where it runs, such
+  as inside the Web Worker.
+- DevTools CPU throttling (`Emulation.setCPUThrottlingRate`) slows the page's
+  thread but not Web Workers. To approximate a slower phone, run the code on the
+  page's thread while throttled, and report it as an approximation.
 - Before you call a missing animation or a black image a site bug, force the end
   state and check again.
 - A form field may miss the first typed input. Focus it with JavaScript first,

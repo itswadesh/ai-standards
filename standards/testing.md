@@ -20,6 +20,10 @@
   0 warnings.
 - Add a test with every feature and every bug fix. A test of a fix must fail
   without the fix.
+- Prove each check can fail. For every validator (a watertight-mesh test, a
+  width rule, a schema check), break the code it guards on purpose and watch a
+  test turn red. A checker that only ever sees good input can break without
+  any test noticing.
 
 ## Writing robust e2e tests
 
