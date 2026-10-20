@@ -56,11 +56,18 @@ The general SEO, analytics and performance rules still apply (`seo.md`,
 - A record the API reports as missing (product, vendor, category) returns 404
   from the page's loader, never a 500.
 - **Rendered metal looks like a photo of metal.** Polished metal shows what it
-  reflects, so light a 3D piece like a jewellery studio: a dark room with a
-  few large softboxes and strip lights, a tone mapping that keeps gold's hue,
-  and edges rounded slightly on screen where the highlights sit. A generic
+  reflects, so light a 3D piece like a jewellery studio: a dim room (not
+  black, or every edge facing it draws a black outline) with a few large
+  softboxes and strip lights, a tone mapping that keeps gold's hue, and
+  edges rounded slightly on screen where the highlights sit. A generic
   environment map makes it look like painted plastic. Judge it beside a real
   product photo.
+- **A flat polished face seen straight on shows one colour**, because it
+  mirrors one point of the studio, and it reads as plastic. Give each face a
+  spread to reflect (a close perspective camera, or shading it as very
+  slightly curved), and leave dim gaps between the lights. Judge gold by its
+  darker tones: in a photo they are deep amber, while gold lit by one bounce
+  of light comes out khaki, like brass. Deepen the colour where it is darker.
 - **A piece shown on a model is drawn at its true size**, scaled from a body
   measurement visible in the photo against a published average (shoulder
   breadth, for example), not a guess. Record the measurement and its source
