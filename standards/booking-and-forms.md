@@ -86,3 +86,8 @@ Fake bookings steal capacity. Add:
 - Keep the public site's contact bar or floating buttons off admin pages; they
   cover save bars on phones.
 - Changes made in admin reach the public pages at once (purge any cache).
+- When an outside service (courier, payment gateway, SMS or email provider)
+  refuses an action an owner or staff member pressed, show the service's exact
+  error message on screen. A generic "internal error" with the reason only in
+  the server log is rejected. Keep only network details such as internal
+  addresses in the log.
