@@ -12,6 +12,9 @@
   - a centred hero over three identical cards;
   - stock photos of smiling people;
   - "Welcome to…" headlines.
+- When an owner says a site "looks AI-made", ask which parts (photos, copy,
+  a motif) before changing anything, and change only those. A full redesign
+  made on that comment alone was rejected, and the owner kept the original.
 - A proven look for a small business is a clean product site:
   - white and very light grey bands, with near-black text;
   - one strong action colour;
