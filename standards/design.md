@@ -64,6 +64,11 @@
   that face.
 - Use tabular numerals for prices, times, distances and counts. Keep prose to
   about 65–70 characters a line.
+- Sentence case everywhere: buttons, labels, eyebrows, status pills, nav. No
+  all-caps styling (`uppercase`, `text-transform: uppercase`) and no wide
+  caps letter-spacing. The owner rejected tracked all-caps labels. When you
+  remove caps, recheck the copy: text typed in Title Case was hidden under
+  them. Names of documents, places and brands keep their capitals.
 
 ## Layout
 
