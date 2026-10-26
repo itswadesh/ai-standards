@@ -12,6 +12,17 @@
   - a centred hero over three identical cards;
   - stock photos of smiling people;
   - "Welcome to…" headlines.
+  - a scrolling marquee of slogans;
+  - numbered section labels ("01 / THE …") in spaced capitals;
+  - one word in every heading picked out in an accent colour;
+  - an arrow (↗) on every button and link;
+  - Unicode symbols (✳ ✺ ◎) standing in for icons;
+  - a rotated circular "100%" stamp or badge;
+  - punchy slogan pairs ("Less hype. More substance.");
+  - an AI-looking macro photo as the hero.
+  An owner rejected a whole site built from these as "looks AI made". What
+  read as real instead: plain sentence-case copy that says what is true today,
+  the business's own progress and unknowns shown openly, real photos or none.
 - A proven look for a small business is a clean product site:
   - white and very light grey bands, with near-black text;
   - one strong action colour;
