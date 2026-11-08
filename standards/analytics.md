@@ -4,6 +4,9 @@
   nothing loads. Before turning it on, add the tool to the privacy page in every
   language.
 - Load nothing on staff, admin or noindex app pages.
+  When the owner wants admin numbers, send server-side Measurement Protocol events
+  (sign-up, first product) instead: no script in the panel and no session
+  recordings of customer data.
 - Never put personal data (phone, address, name) into events or URLs.
 - Conversion events fire on the confirmed outcome: after the server accepts
   the form or the cart accepts the item. Never on page load, and never on the
