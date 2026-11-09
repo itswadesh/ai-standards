@@ -22,6 +22,9 @@
 - An unverified number is worse than none. Benchmarking competitors' prices is
   not knowing your own: explain how the price is worked out until the owner gives
   real rates.
+- A complaint about a competitor counts only if it was posted in the last 12
+  months, with its date and source shown. An older problem may since have been
+  fixed, so leave it out even when it is the only one found.
 - No placeholder wording ("coming soon", "to be added", "indicative"). A missing
   photo or section is simply absent.
 - Never promise a service the business doesn't give. Confirm every operational
