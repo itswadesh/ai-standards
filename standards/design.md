@@ -82,6 +82,14 @@
 - Respect `env(safe-area-inset-*)`. The Android app draws edge to edge, under
   the status bar.
 - Touch targets are at least 44 px; primary actions are 48 px or more.
+- Keep shopping screens compact on a phone, in the density of the big Indian
+  shopping apps: about a 16 px page gutter, 24 px between sections, 8–14 px
+  between product cards and a 14 px body. A spacious desktop look that keeps
+  its 24 px gutters and 16 px text on a phone was rejected as "everything is
+  big". Get the density from spacing and type, not from smaller touch targets:
+  let neighbouring 44 px targets touch rather than shrink them. Don't repeat a
+  control the screen already shows, such as filter chips above a grid that
+  already has a sticky Filter bar.
 - Prefer native elements: `<details>` for FAQs, `<dialog>` for sheets and
   lightboxes, real tables for timetables and prices.
 - Except selects, in an app or admin screen with its own theme and dark mode:
