@@ -78,6 +78,11 @@ approved templates. Rules learned from rejections:
   English voice mid-sentence, which sounds robotic and blurs the words; a
   speech-to-text check reads the Devanagari version back far more clearly. Keep
   compression on a synthetic voice light.
+- An English multilingual neural voice, pitched up a little, sounded younger and
+  more human to the owner for Hinglish than the Hindi voice. With such a voice the
+  rule flips: English words in Latin letters, Hindi in Devanagari, numbers as
+  digits. Spell acronyms with spaces ("C O D"), or the voice reads them as words.
+  Play the owner short samples before you switch a whole series.
 - Model translations need a native review before launch. Say so in the report.
 
 ## Formats
