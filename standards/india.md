@@ -73,6 +73,11 @@ approved templates. Rules learned from rejections:
   falls back to English. Keep day and month names in the dictionaries.
 - Spoken audio: use recorded neural voices only, never the browser's speech
   synthesis (`content.md`).
+- Hinglish narration with a Hindi neural voice: write the English words in
+  Devanagari (स्टोर, लिंक). A word in Latin letters makes the voice switch to an
+  English voice mid-sentence, which sounds robotic and blurs the words; a
+  speech-to-text check reads the Devanagari version back far more clearly. Keep
+  compression on a synthetic voice light.
 - Model translations need a native review before launch. Say so in the report.
 
 ## Formats
