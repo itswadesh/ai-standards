@@ -101,6 +101,43 @@
 - Header: solid white, or a floating glass pill if the owner chose that look.
   Keep the navigation small.
 
+## App screens
+
+The owner held up a small social scheduler as the model of a simple app layout.
+What made it simple:
+
+- One shell. On desktop, a fixed sidebar about 240 px wide holds the logo, one
+  primary action button at the top, five places (an icon and one or two words
+  each) and the account at the bottom. There is no top bar on desktop. Content
+  sits in one centred column, at most about 72rem wide, with a 16 px gutter on
+  phones and 32 px on desktop.
+- On phones, the sidebar becomes a bottom tab bar with the places and the
+  primary action as a round button in the middle. The top bar holds only the
+  logo and one or two icon buttons.
+- Five places, no more. Anything else lives inside one of them or in a dialog,
+  not in a second row of tabs or a toolbar of status chips.
+- Create and edit in a dialog, never on a new page: a bottom sheet on phones,
+  with the form on the left and a live preview on the right. A sticky footer
+  puts the destructive action alone at the far left and Save draft and the
+  primary action at the right. Closing it returns to the same screen.
+- A small, fixed size scale: 32 px small buttons, 36 px nav rows, 40 px fields
+  and buttons, 44 px for the main action, 56–64 px bars. Text comes in two
+  sizes (14 px body, 12 px meta) and at most four weights.
+- Greys for everything. The brand colour marks only the primary action, the
+  active place and the icons inside action buttons. Areas are separated by
+  1 px borders, with no card shadows.
+- Every state of a control is a ready block swapped in place, so nothing jumps.
+  An upload is a dashed drop area with one line of help, then a spinner with
+  the file name, then a thumbnail with its name, Replace and Remove.
+- Helper actions sit as a row of small outlined buttons under the field they
+  change, each an icon and a verb ("Improve", "Shorten", "Add hashtags").
+- One toast at the bottom confirms an action, above the phone tab bar.
+- Theme is light, dark or system, applied before the first paint.
+
+Don't copy its weaker parts: the all-caps field labels, the mix of corner radii,
+dark mode built by overriding each utility class, and focus outlines turned off.
+The rules above (one radius, sentence case) still hold.
+
 ## Imagery
 
 - Use real photos: the owner's own, or licensed ones (for example Wikimedia
