@@ -80,6 +80,9 @@ their frame rate before calling the work done.
 - Use real photos only: the owner's own, or licensed ones with credit. No stock
   photos, and no AI images unless the owner asks. When the owner does want AI
   images, make them with Google Gemini, never ChatGPT.
+- Every image must look hyper-realistic. A plain, waxy or AI-looking face gets
+  rejected, even when it comes from the client's own website: leave it out and
+  use product shots, or ask for real photos.
 
 ### Secrets
 - Secrets live in env files kept out of git or in the host's secret store, never
