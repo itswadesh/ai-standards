@@ -85,6 +85,12 @@ Fake bookings steal capacity. Add:
   (`security.md`). Staff pages load no analytics and are `noindex`.
 - Keep the public site's contact bar or floating buttons off admin pages; they
   cover save bars on phones.
+- **Profile-style pages read as text first.** A page that describes something
+  (a business profile, a brand, a product's details) shows its values as text,
+  and each section has its own Edit button. Edit opens only that section's
+  fields, with its own Save and Cancel. A wall of open fields is hard to read.
+  Settings-style pages, where changing values is the reason to visit, may keep
+  their fields open.
 - Changes made in admin reach the public pages at once (purge any cache).
 - When an outside service (courier, payment gateway, SMS or email provider)
   refuses an action an owner or staff member pressed, show the service's exact
