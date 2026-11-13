@@ -87,6 +87,8 @@ approved templates. Rules learned from rejections:
   free Edge neural voices, with the same Latin-and-Devanagari script. AI Studio's
   speech playground is free for a sample; the API needs the owner's own free key.
   Custom voice design needs billing, so use a prebuilt voice.
+  Direct the voice in writing before the transcript (free): tone, accent (Indian English for English words, native
+  Hindi), rhythm, prosody, and punctuation used on purpose ("..." pause, "—" emphasis, "?" real question).
 - Model translations need a native review before launch. Say so in the report.
 
 ## Formats
