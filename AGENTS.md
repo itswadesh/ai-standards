@@ -16,6 +16,14 @@ the project's decisions file.
   only for what only the owner can supply: accounts, keys, money, approvals and
   facts about the business. The exception is the visual direction of a new site
   or a redesign: offer 3–4 named directions with ASCII mockups in one question.
+- **Research before you ask.** Before putting a question to the owner, try to
+  answer it from the code, the docs, earlier conversation or the web, then act
+  on the answer ("if you can solve something by doing your own research go ahead
+  and don't wait for me"). Facts about the business that only the owner knows
+  are still theirs to give.
+- **Turn each new rule into a check.** When the owner gives a rule for generated
+  output (a word to avoid, a condition a sentence must keep), add it to the
+  generator's checks the same day, so a breach is caught before anyone reads it.
 - **No plan-review gates.** For large work, write a short spec, then build,
   verify and ship. Don't stop for approval of a plan. If the owner answers a
   question with "continue" or "go ahead", take your recommended option and say so.

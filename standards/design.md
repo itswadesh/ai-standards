@@ -133,6 +133,13 @@ What made it simple:
   change, each an icon and a verb ("Improve", "Shorten", "Add hashtags").
 - One toast at the bottom confirms an action, above the phone tab bar.
 - Theme is light, dark or system, applied before the first paint.
+- A status view (agents, jobs, runs) is graphical, not a wall of text. Give each
+  item an icon in a circle coloured by its status, with a small status mark.
+  Show counts per status at the top that also act as filters. Put what needs
+  the owner first, with a count badge. Clamp each text line to one or two lines
+  and show the full text on tap. Every status has an icon, a colour and a label,
+  never colour alone. An owner rejected a text-first board ("display this in a
+  graphical way using icons and status indicators and color codes").
 
 Don't copy its weaker parts: the all-caps field labels, the mix of corner radii,
 dark mode built by overriding each utility class, and focus outlines turned off.
