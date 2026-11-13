@@ -83,6 +83,10 @@ approved templates. Rules learned from rejections:
   rule flips: English words in Latin letters, Hindi in Devanagari, numbers as
   digits. Spell acronyms with spaces ("C O D"), or the voice reads them as words.
   Play the owner short samples before you switch a whole series.
+- Google's Gemini text-to-speech voices sounded better still to the owner than the
+  free Edge neural voices, with the same Latin-and-Devanagari script. AI Studio's
+  speech playground is free for a sample; the API needs the owner's own free key.
+  Custom voice design needs billing, so use a prebuilt voice.
 - Model translations need a native review before launch. Say so in the report.
 
 ## Formats
