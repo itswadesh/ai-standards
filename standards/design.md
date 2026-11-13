@@ -151,6 +151,10 @@ The rules above (one radius, sentence case) still hold.
   Commons CC, credited on a credits page). No stock, no AI-generated images, and
   no photos taken from Google Maps or from creators, unless the owner allows it
   for a specific case.
+- When the owner does allow generated images or film frames, they must be
+  hyper-realistic: indistinguishable from a real photograph, with natural skin
+  texture, lighting and imperfection. A plain, smooth face that "looks like an AI
+  image" was rejected ("we always need hyper realistic images").
 - Sample or demo content inside a product, such as a sample shop a merchant
   starts with, may use free-licence photos (for example under the Unsplash
   License), credited in the docs, and sample reviews. It must be marked as a
